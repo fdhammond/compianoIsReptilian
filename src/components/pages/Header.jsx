@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heacer = () => {
+const Header = () => {
   return (
     <header className="blog-header lh-1 py-3">
       <div className="row flex-nowrap justify-content-between align-items-center">
@@ -42,4 +42,4 @@ const Heacer = () => {
   );
 };
 
-export default Heacer;
+export default Header;
