@@ -1,12 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/pages/Header";
-import Nav from "./components/pages/Nav";
-import Post from "./components/pages/Post";
-import Main from "./components/pages/Main";
-import Feature from "./components/pages/Feature";
-import Footer from "./components/pages/Footer";
-import Aside from "./components/pages/Aside";
+import Header from "./components/layout/Header";
+import Nav from "./components/layout/Nav";
+import Main from "./components/layout/Main";
+import Footer from "./components/layout/Footer";
+import Aside from "./components/layout/Aside";
+import Post from "./components/helpers/Post";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       </div>
       <main className="container">
         <Main />
-        <Feature />
         <div className="row g-5">
           <div className="col-md-8">
             <Post />

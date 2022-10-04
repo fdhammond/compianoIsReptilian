@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = () => {
+const Jumbotron = () => {
   return (
     <div className="p-4 p-md-5 mb-4 rounded text-bg-dark">
       <div className="col-md-6 px-0">
@@ -22,4 +22,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Jumbotron;
